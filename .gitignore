@@ -1,0 +1,69 @@
+# Node.js modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+firebaseServiceAccountKey.json
+
+# Diretório do ambiente local
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+logs/*.log
+pids/
+*.pid
+*.seed
+*.pid.lock
+*.gz
+
+# Configurações do Firebase
+firebase-debug.log
+.firebaserc
+
+# Diretório de banco de dados
+*.db
+*.sqlite
+*.sql
+*.bak
+*.backup
+
+# Cache de teste e cobertura
+coverage/
+.nyc_output/
+
+# Configurações de sistema
+.DS_Store
+Thumbs.db
+
+# Configurações do editor (VSCode, Sublime, etc.)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build e deploy
+dist/
+build/
+tmp/
+out/
+
+# Sentry
+.sentryclirc
+
+# Docker
+.dockerignore
+docker-compose.yml
+docker-compose.override.yml
+
+# Outros arquivos temporários
+*.swp
+*.tmp
+*.temp
+*.old
+*.md.backup
+
