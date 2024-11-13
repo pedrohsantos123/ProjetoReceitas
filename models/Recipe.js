@@ -4,7 +4,7 @@ const recipeSchema = new mongoose.Schema({
   title: { type: String, required: true },
   ingredients: { type: [String], required: true },
   instructions: { type: String, required: true },
-  userId: { type: String, required: true }, // Firebase UID
+  userId: { type: String, required: true },
 }, {
   timestamps: true,
 });

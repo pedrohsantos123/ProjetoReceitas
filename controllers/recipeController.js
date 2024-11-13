@@ -3,7 +3,7 @@ const Recipe = require("../models/Recipe");
 exports.createRecipe = async (req, res) => {
   try {
     const { title, ingredients, instructions } = req.body;
-    const userId = req.user.uid; // Firebase UID do usuário autenticado
+    const userId = req.user.uid; 
 
     const newRecipe = new Recipe({
       title,
@@ -27,5 +27,3 @@ exports.getRecipes = async (req, res) => {
     res.status(500).json({ message: "Erro ao buscar receitas" });
   }
 };
-
-// Outras funções para update e delete...
